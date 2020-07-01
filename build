@@ -1,7 +1,0 @@
-#!bin/bash
-
-echo "test start"
-
-go run main.go
-
-echo $?
