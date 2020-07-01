@@ -3,7 +3,7 @@ pipeline {
 	stages {
 		stage('Test') {
             steps {
-                sh 'sh make.sh'
+                sh 'python build.py'
             }
         }
 	}
