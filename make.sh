@@ -2,7 +2,6 @@
 
 echo "build start"
 
-#go build src/test/main.go
-go version
+go build -o t src/test/main.go
 
-echo "build end"
+echo "build start"
